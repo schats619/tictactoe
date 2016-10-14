@@ -1,0 +1,39 @@
+.boxshadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.messages{
+
+    font-weight: 200;
+}
+.table{
+
+    width:250px;
+    height:200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid blue;
+
+}
+td {
+
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid blue;
+}
+td:before{
+    font-size: 2.5em;
+    line-height: 1;
+}
+
+td.cross:before {
+     content: "x";
+     color: darkblue;
+ }
+td.circle:before {
+     content: "o";
+     color: darkred;
+ }
+
+
